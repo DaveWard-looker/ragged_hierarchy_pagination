@@ -21,6 +21,10 @@ include: "/views/drillling_views/child_drills.view.lkml"
 #   }
 # }
 
+datagroup: nightly_rebuild {
+  sql_trigger: select current_date() ;;
+}
+
 explore: ragged_data {
 
 }
@@ -156,83 +160,6 @@ explore: +ragged_data  {
     relationship: one_to_many
   }
 
-  # Repeat this process again in order to provide joins from child node up to its individual parent when user is in drill pattern.
-
-  join: cdp_1 {
-    from: cd_1
-    sql_on: ${pd_1.parent_code} = ${cdp_1.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_2 {
-    from: cd_2
-    sql_on: ${pd_2.parent_code} = ${cdp_2.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_3 {
-    from: cd_3
-    sql_on: $${pd_3.parent_code} = ${cdp_3.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_4 {
-    from: cd_4
-    sql_on: ${pd_4.parent_code} = ${cdp_4.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_5 {
-    from: cd_5
-    sql_on: ${pd_5.parent_code} = ${cdp_5.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_6 {
-    from: cd_6
-    sql_on: ${pd_1.parent_code} = ${cdp_6.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_7 {
-    from: cd_7
-    sql_on: ${ragged_data.group_code} = ${cdp_7.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_8 {
-    from: cd_8
-    sql_on: ${ragged_data.group_code} = ${cdp_8.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_9 {
-    from: cd_9
-    sql_on: ${ragged_data.group_code} = ${cdp_9.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_10 {
-    from: cd_10
-    sql_on: ${ragged_data.group_code} = ${cdp_10.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_11 {
-    from: cd_11
-    sql_on: ${ragged_data.group_code} = ${cdp_11.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_12 {
-    from: cd_12
-    sql_on: ${ragged_data.group_code} = ${cdp_12.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_13 {
-    from: cd_13
-    sql_on: ${ragged_data.group_code} = ${cdp_13.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_14 {
-    from: cd_14
-    sql_on: ${ragged_data.group_code} = ${cdp_14.group_code} ;;
-    relationship: one_to_many
-  }
-  join: cdp_15 {
-    from: cd_15
-    sql_on: ${ragged_data.group_code} = ${cd_15.group_code} ;;
-    relationship: one_to_many
-  }
 
 
 }

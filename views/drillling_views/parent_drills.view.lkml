@@ -1,8 +1,10 @@
 view: pd_1 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 1
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -24,10 +26,12 @@ view: pd_1 {
 }
 
 view: pd_2 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 2
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -49,10 +53,12 @@ view: pd_2 {
 }
 
 view: pd_3 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 3
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -74,10 +80,12 @@ view: pd_3 {
 }
 
 view: pd_4 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 4
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -99,10 +107,12 @@ view: pd_4 {
 }
 
 view: pd_5 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 5
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -124,10 +134,12 @@ view: pd_5 {
 }
 
 view: pd_6 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 6
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -149,10 +161,12 @@ view: pd_6 {
 }
 
 view: pd_7 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 7
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -174,10 +188,12 @@ view: pd_7 {
 }
 
 view: pd_8 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 8
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -199,10 +215,12 @@ view: pd_8 {
 }
 
 view: pd_9 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 9
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -224,10 +242,12 @@ view: pd_9 {
 }
 
 view: pd_10 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 10
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -249,10 +269,12 @@ view: pd_10 {
 }
 
 view: pd_11 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 11
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -274,10 +296,12 @@ view: pd_11 {
 }
 
 view: pd_12 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 12
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -299,10 +323,12 @@ view: pd_12 {
 }
 
 view: pd_13 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 13
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -324,10 +350,12 @@ view: pd_13 {
 }
 
 view: pd_14 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 14
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
@@ -349,10 +377,12 @@ view: pd_14 {
 }
 
 view: pd_15 {
+  view_label: ""
+  fields_hidden_by_default: yes
   derived_table: {
     sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_parent` where level = 15
       ;;
-    # persist_for: "24 hours"
+    datagroup_trigger: nightly_rebuild
   }
   dimension: pk {
     type: string
