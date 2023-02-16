@@ -20,7 +20,7 @@ view: cd_1 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_2.child_code, pd_2.parent_code]
+    drill_fields: [cd_2.child_code]
   }
 }
 
@@ -46,7 +46,7 @@ view: cd_2 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_3.child_code, pd_3.parent_code]
+    drill_fields: [cd_3.child_code, pd_1.parent_code]
   }
 }
 
@@ -72,7 +72,7 @@ view: cd_3 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_4.child_code, pd_4.parent_code]
+    drill_fields: [cd_4.child_code, pd_2.parent_code]
   }
 }
 
@@ -98,7 +98,7 @@ view: cd_4 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_5.child_code, pd_2.parent_code]
+    drill_fields: [cd_5.child_code, pd_4.parent_code]
   }
 }
 
@@ -124,7 +124,7 @@ view: cd_5 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_6.child_code, pd_6.parent_code]
+    drill_fields: [cd_6.child_code, pd_5.parent_code]
   }
 }
 
@@ -150,7 +150,7 @@ view: cd_6 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_7.child_code, pd_7.parent_code]
+    drill_fields: [cd_7.child_code, pd_6.parent_code]
   }
 }
 
@@ -176,7 +176,7 @@ view: cd_7 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_8.child_code]
+    drill_fields: [cd_8.child_code, pd_7.parent_code]
   }
 }
 
@@ -202,7 +202,7 @@ view: cd_8 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_9.child_code]
+    drill_fields: [cd_9.child_code, pd_8.parent_code]
   }
 }
 
@@ -228,7 +228,7 @@ view: cd_9 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_10.child_code]
+    drill_fields: [cd_10.child_code, pd_9.parent_code]
   }
 }
 
@@ -254,7 +254,7 @@ view: cd_10 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_11.child_code]
+    drill_fields: [cd_11.child_code, pd_10.parent_code]
   }
 }
 
@@ -280,7 +280,7 @@ view: cd_11 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_12.child_code]
+    drill_fields: [cd_12.child_code, pd_11.parent_code]
   }
 }
 
@@ -306,7 +306,7 @@ view: cd_12 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_13.child_code]
+    drill_fields: [cd_13.child_code, pd_12.parent_code]
   }
 }
 
@@ -332,7 +332,7 @@ view: cd_13 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_14.child_code]
+    drill_fields: [cd_14.child_code, pd_13.parent_code]
   }
 }
 
@@ -358,7 +358,7 @@ view: cd_14 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-    drill_fields: [cd_15.child_code]
+    drill_fields: [cd_15.child_code, pd_14.parent_code]
   }
 }
 
@@ -384,6 +384,6 @@ view: cd_15 {
     label: "Child Code"
     type: string
     sql: ${TABLE}.child_code ;;
-
+    drill_fields: [pd_15.parent_code]
   }
 }
