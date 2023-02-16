@@ -34,7 +34,7 @@ view: ragged_data {
   dimension: group_code {
     type: string
     sql: ${TABLE}.group_code ;;
-    drill_fields: [recursive_child.child_code,recursive_parent.parent_code]
+    drill_fields: [cd_1.child_code,pd_1.parent_code]
 
   }
 
