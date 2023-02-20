@@ -159,7 +159,4 @@ explore: +ragged_data  {
     sql_on: ${ragged_data.group_code} = ${pd_15.group_code} ;;
     relationship: one_to_many
   }
-
-
-
 }
