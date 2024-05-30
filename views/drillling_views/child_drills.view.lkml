@@ -2,7 +2,7 @@ view: cd_1 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 1
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 1
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -30,7 +30,7 @@ view: cd_2 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 2
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 2
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -58,7 +58,7 @@ view: cd_3 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 3
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 3
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -86,7 +86,7 @@ view: cd_4 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 4
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 4
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -114,7 +114,7 @@ view: cd_5 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 5
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 5
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -142,7 +142,7 @@ view: cd_6 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 6
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 6
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -170,7 +170,7 @@ view: cd_7 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 7
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 7
       ;;
     datagroup_trigger: nightly_rebuild
 
@@ -199,7 +199,7 @@ view: cd_8 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 8
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 8
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -227,7 +227,7 @@ view: cd_9 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 9
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 9
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -255,7 +255,7 @@ view: cd_10 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 10
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 10
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -283,7 +283,7 @@ view: cd_11 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 11
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 11
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -311,7 +311,7 @@ view: cd_12 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 12
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 12
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -339,7 +339,7 @@ view: cd_13 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 13
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 13
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -367,7 +367,7 @@ view: cd_14 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 14
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 14
       ;;
     datagroup_trigger: nightly_rebuild
   }
@@ -395,7 +395,7 @@ view: cd_15 {
   view_label: ""
   fields_hidden_by_default: yes
   derived_table: {
-    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child` where level = 15
+    sql: select * from `daveward-ps-dev.daveward_demodataset.recursive_child_t` where level = 15
       ;;
     datagroup_trigger: nightly_rebuild
   }
