@@ -9,7 +9,7 @@ view: ragged_data {
 
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
-  # This dimension will be called "Child Code" in Explore.
+  # This dimension will be called "Child Code" in Explore
 
 
   dimension: pk_dim {

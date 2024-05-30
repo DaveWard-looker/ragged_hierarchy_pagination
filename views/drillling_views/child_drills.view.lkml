@@ -1,3 +1,4 @@
+# initial commit
 view: cd_1 {
   view_label: ""
   fields_hidden_by_default: yes

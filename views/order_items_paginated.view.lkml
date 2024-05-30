@@ -1,6 +1,4 @@
-# The name of this view in Looker is "Order Items"
-  # The sql_table_name parameter indicates the underlying database table
-  # to be used for all fields in this view.
+
 
   view: order_items_paginated {
     derived_table: {

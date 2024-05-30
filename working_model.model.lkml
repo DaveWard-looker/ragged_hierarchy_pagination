@@ -12,7 +12,7 @@ datagroup: nightly_rebuild {
 
 explore: order_items_paginated {
   always_filter: {
-    filters: [page : "1",number_per_page: "50"]
+    filters: [page : "1",number_per_page: "500"]
   }
 }
 
